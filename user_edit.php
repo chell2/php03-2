@@ -56,8 +56,8 @@ if ($status == false) {
 					</p>
 					<p class="btn"><input type="submit" value="更新">　<input type="reset" value="リセット"></p>
 					<input type="hidden" name="id" value="<?= $record['id'] ?>">
-					<p><input type="number" name="is_admin" value="<?= $record['is_admin'] ?>"></p>
-					<p><input type="number" name="is_deleted" value="<?= $record['is_deleted'] ?>"></p>
+					<p><input type="hidden" name="is_admin" value="<?= $record['is_admin'] ?>"></p>
+					<p><input type="hidden" name="is_deleted" value="<?= $record['is_deleted'] ?>"></p>
 				</div>
 			</fieldset>
 		</form>
